@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #f4f4f4;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.navbar nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 2em;
+  background-color: #f4f4f4;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: palevioletred;
+  text-decoration: none;
+}
+
+.navbar .logo img {
+  margin-right: 10px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar .nav-links li {
+  position: relative;
+}
+
+.navbar .nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: palevioletred;
+}
+
+/* Search Bar Styling */
+.navbar .search-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .search-form {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .search-form input[type="text"],
+.navbar .search-form select {
+  padding: 10px;
+  border: 2px solid #e3d1dd;
+  border-radius: 40px;
+  font-size: 0.9rem;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.navbar .search-form button {
+  padding: 1em 1.5em;
+  border: none;
+  background-color: palevioletred;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  border-radius: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .search-form button:hover {
+  opacity: 0.5;
+}
+
+/* User Dropdown */
+.navbar .dropdown {
+  position: relative;
+}
+
+.navbar .dropdown .user-name {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #333;
+}
+
+.navbar .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  list-style: none;
+  padding: 10px;
+  display: none;
+  z-index: 10;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: #f4f4f4;
+}
+
+.navbar .dropdown-menu li {
+  padding: 0 0.8em;
+}
+
+.navbar .dropdown-menu li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.8em;
+}
+
+.navbar .dropdown-menu li a:hover {
+  color: palevioletred;
+}

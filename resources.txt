@@ -1,0 +1,32 @@
+  @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+font-family: 'anton sc', 'serif';
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+$user_id = $_SESSION['user_id'];
+
+<link rel="stylesheet" href="Components/navbarStyle.css">
+
+ <?php include("./Components/navbar.php"); ?>
+
+ ////////////////////////////////////////////
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+ <link rel="stylesheet" href="Components/navbarStyle.css">
+    <link rel="stylesheet" href="Components/footerStyle.css">
+
+ <?php include("./Components/navbar.php"); ?>
+
+  <?php include('./Components/footer.php');
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  //////////////// Card Shadow ////////////////////
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
